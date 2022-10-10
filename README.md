@@ -1,6 +1,6 @@
 # Record Problem
 
-## Target Audience
+## Problem
 
 This repository provides a small Micronaut web application that simulates a JWT login endpoint. The application only works, when no native-image configuration is created via GraalVM agent (In my real application, my login code relies on the generated agent output because this code uses reflection). As soon the GraalVM agent with the following command:
 
